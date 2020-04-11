@@ -8,11 +8,11 @@ MaterialBox is an open source template for creating beautiful mobile-responsive 
 
 Clone application
 
-```git clone https://github.com/Grace-Amondi/ordinary_kriging.git```
+```git clone https://github.com/Grace-Amondi/MaterialBox.git```
 
 Move into the ordinary_kriging directory
 
-```cd ordinary_kriging```
+```cd MaterialBox```
 
 Change .env.example to .env and Set your *mapbox access token*.Install node modules
 
