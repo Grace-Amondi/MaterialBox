@@ -2,7 +2,7 @@
 
 ## Introduction
 ![demo](./images/demo.png)
-MaterialBox is an open source template for creating webmaps with html, css and javascript. It was created with the help of [Materialize](https://materializecss.com/ "Materialize") and [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/ "Mapbox GL JS"). View [demo](https://materialbox.surge.sh/)
+MaterialBox is an open source template for creating beautiful mobile-responsive webmaps with html, css and javascript. It was created with the help of [Materialize](https://materializecss.com/ "Materialize") and [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/ "Mapbox GL JS"). View [demo](https://materialbox.surge.sh/)
 
 ## Run Locally
 
