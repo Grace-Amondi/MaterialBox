@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaterialBox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://raw.githubusercontent.com/bravecow/mapbox-gl-controls/master/theme.css" rel="stylesheet">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.css' rel='stylesheet' />
+
+</head>
+
+<body>
+    <!-- preloader for start page  -->
+    <div class="loader" id="loader"></div>
+    <!-- main content  -->
+    <div id="page" style="display: hidden;">
+        <nav>
+            <div class="nav-wrapper #0277bd light-blue darken-3">
+                <a href="index.html" class="brand-logo "><i class="material-icons">crop_free</i>MaterialBox</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons ">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="https://github.com/Grace-Amondi/ordinary_kriging" target="_blank"
+                            style="font-size: 18px;font-family: 'Patrick Hand', cursive;">Github</a></li>
+                    <li><a id="menu" class="waves-effect waves-light btn btn-floating #81d4fa light-blue lighten-3"
+                            onclick="$('.tap-target').tapTarget('open')"><i class="material-icons right">help</i></a>
+                    </li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="https://github.com/Grace-Amondi/ordinary_kriging" target="_blank">Github</a></li>
+                    <li><a id="menu" class="waves-effect waves-light btn btn-floating #81d4fa light-blue lighten-3"
+                            onclick="$('.tap-target').tapTarget('open')"><i class="material-icons right">help</i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+        <!-- Page Layout here -->
+        <div class="row">
+
+            <div class="col s12 m4 l4">
+
+                <!-- Note that "m4 l3" was added -->
+                <!-- Grey navigation panel
+      
+                    This content will be:
+                3-columns-wide on large screens,
+                4-columns-wide on medium screens,
+                12-columns-wide on small screens  -->
+                <div class="card #81d4fa light-blue lighten-1">
+                    <div class="card-content black-text">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus dolor sed quae enim facere adipisci? A tempore nam consequatur ullam voluptatum natus error, voluptates magni quibusdam sit itaque optio id.
+                        </p>
+                    </div>
+                    <div class="card-content #81d4fa light-blue lighten-3 ">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis obcaecati sapiente esse neque odit sint pariatur delectus accusamus, illum facilis vel nisi velit in error blanditiis ratione nostrum expedita ea.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m8 l8" id="map">
+                <a id="menu" onclick="$('.tap-target').tapTarget('open')"></a>
+
+                <!-- Tap Target Structure -->
+                <div class="tap-target #81d4fa light-blue lighten-3" data-activates="menu">
+                    <div class="tap-target-content black-text" id="info" style="text-align: right;">
+                        <h5 style="font-family: 'Patrick Hand', cursive;">My heading</h5>
+                        <p>My description
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.js'></script>
+    <script src="https://unpkg.com/togeojson@0.16.0"></script>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
